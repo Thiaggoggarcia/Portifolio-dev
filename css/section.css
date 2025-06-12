@@ -1,0 +1,40 @@
+#intro{
+  background-image: url("../assets/images/Background_Intro.jpg");
+  background-size: cover;
+
+  div{
+    position: relative;
+    width: 112px;
+    height: 112px;
+  
+    img{
+      width: 87.27px;
+      height: 87.27px;
+      border-radius: 50%;
+      margin: auto;
+      
+      
+    }
+    &::before{
+        content: "";
+        position: absolute;
+        width: 96px;
+        height: 96px;
+        border: 2px solid var(--color-red);
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    &::after{
+      position: absolute;
+      content: url("../assets/icons/Tag.svg");
+      width: 32px;
+      width: 32px;
+      bottom: 2px;
+      right: 2px;
+    }
+  
+  }
+
+}
