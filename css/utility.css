@@ -3,21 +3,36 @@
   margin-inline: auto;
   box-sizing: border-box;
 }
-
+/*Display*/
 .flex{
   display: flex;
 }
+.grid{
+ display: grid; 
+}
 
+.grid-col-3{
+  grid-template-columns: repeat(3, 1fr);
+}
 .column{
   flex-direction: column;
 }
-.center{
+.just-center{
+  justify-content: center;
+  justify-items: center;
+}
+.align-center{
   align-items: center;
+  align-content: center;
 }
 
-.tag{
 
+
+/* Gap */
+.gap-8{
+  gap: 8px;
 }
+
 /* Text */
 .title-lg{
   font: var(--title-lg);
@@ -38,11 +53,6 @@
   font: var(--text-sm);
 }
 
-
-/* Gap */
-.gap-8{
-  gap: 8px;
-}
 /* colors */
 .red{
   color: var(--color-red);

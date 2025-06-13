@@ -50,7 +50,6 @@
 
   ul{
    margin-block: 80px 94px;
-    width: 754px;
     column-gap: 16px;
 
     li{
@@ -63,5 +62,50 @@
   #down-icon{
     width: 32px;
     margin-bottom: 57px;
+  }
+}
+
+#projects{
+  background-color: var(--color-gray-200);
+  padding: 72px 120px 144px 120px;
+
+  header{
+    row-gap: 8px;
+  }
+
+  nav{
+    margin-top: 56px;
+    gap: 24px;
+    max-width: 1040px;
+    margin-inline: auto;
+
+    figure{
+      width: 330px;
+      height: 280px;
+      background-color: var(--color-gray-300);
+      border-radius: 8px;
+      padding: 12px;
+      box-sizing: border-box;
+
+      img{
+        border-radius: 8px;
+        margin-bottom: 24px;
+        width:306px;
+        height: 156px;
+      }
+      figcaption{
+        padding: 4px;
+        
+        p{
+            margin-top: 8px;
+        }
+      } 
+    }
+    
+    figure:hover{
+      border: 1.5px solid var(--color-gray-400) ;
+      cursor: pointer;
+    }
+
   }
 }
