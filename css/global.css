@@ -31,11 +31,17 @@
   --text-sm: 400 14px/140% var(--font-maven-pro); 
 }
 
-body{
+*{
   margin: 0;
   padding: 0;
 }
 
 img{
   object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
 }

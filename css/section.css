@@ -37,4 +37,31 @@
   
   }
 
+  header{
+    width: 680px;
+    margin-top: 56px;
+    display: block;
+    justify-items: center;
+
+    h1{
+      padding-block: 8px 20px;
+    }
+  }
+
+  ul{
+   margin-block: 80px 94px;
+    width: 754px;
+    column-gap: 16px;
+
+    li{
+      background-color: var(--color-gray-300);
+      border-radius: 20px;
+      padding: 8px 16px;
+    
+    }
+  }
+  #down-icon{
+    width: 32px;
+    margin-bottom: 57px;
+  }
 }
