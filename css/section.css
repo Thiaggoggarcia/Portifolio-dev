@@ -69,13 +69,8 @@
   background-color: var(--color-gray-200);
   padding: 72px 120px 144px 120px;
 
-  header{
-    row-gap: 8px;
-  }
-
   nav{
     margin-top: 56px;
-    gap: 24px;
     max-width: 1040px;
     margin-inline: auto;
 
@@ -107,5 +102,30 @@
       cursor: pointer;
     }
 
+  }
+}
+
+#services{
+  background-color: var(--color-gray-100);
+  padding: 88px 120px 120px 120px;
+
+  div{
+    margin-top: 56px;
+    
+    figure{
+      border: 2px solid var(--color-gray-200);
+      border-radius: 12px;
+      padding: 20px;
+      box-sizing: border-box;
+  
+      img{
+        width: 48px;
+        height: 48px;
+        margin-bottom: 20px;
+      }
+      figcaption>p{
+        margin-top: 8px;
+      }
+    }
   }
 }
